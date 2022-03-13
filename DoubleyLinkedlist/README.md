@@ -1,6 +1,1 @@
-A Doubly Linked List (DLL) contains an extra pointer, typically called previous pointer.
-1) A DLL can be traversed in both forward and backward direction. 
-2) The delete operation in DLL is more efficient if pointer to the node to be deleted is given. 
-3) We can quickly insert a new node before a given node. 
-In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer. 
-
+Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
